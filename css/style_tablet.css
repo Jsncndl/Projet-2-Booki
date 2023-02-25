@@ -1,0 +1,113 @@
+@media only screen and (max-width: 992px) {
+  .mainHeader {
+    margin: 0px;
+  }
+  .mainHeader nav {
+    flex-direction: column;
+    height: auto;
+  }
+  .mainHeader nav span a {
+    align-items: center;
+  }
+  .mainHeader nav span a:hover {
+    border-top: 0px;
+    border-left: 2px solid #0065fc;
+  }
+  .navSearch {
+    margin-left: 20px;
+  }
+  input#button {
+    display: none;
+  }
+  button#buttonMobile {
+    display: unset;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    border-style: none;
+    color: white;
+    font-weight: 900;
+    background-color: #0065fc;
+    font-size: 100%;
+    position: relative;
+    right: 25px;
+  }
+  .navSearchFilters {
+    gap: 10px;
+  }
+  .navSearchFilters h2 {
+    width: 100%;
+  }
+  main {
+    margin: 0px;
+    gap: 0px;
+  }
+  .HostingPopular {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 0px;
+  }
+  .popular {
+    order: -1;
+    width: 100%;
+    border-radius: 0px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+  }
+  .popular h2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .popularCard {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #hosting {
+    width: 100%;
+    background-color: unset;
+    padding: 20px;
+    gap: 15px;
+  }
+  #hosting h2 {
+    margin-bottom: 20px;
+  }
+  .HostingMain {
+    row-gap: 0px;
+  }
+  .hostingCard {
+    width: 45%;
+  }
+  .HostingMainMore {
+    margin-top: 20px;
+  }
+  #activities {
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .activitiesColumn {
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
+  .activitiesCard,
+  .activitiesCard.activitiesCard2 {
+    height: 180px;
+  }
+  .activitiesCardTitle {
+    font-size: 100%;
+  }
+  footer {
+    flex-direction: column;
+    align-content: space-between;
+    padding-left: 30px;
+  }
+  footer div {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+  }
+}

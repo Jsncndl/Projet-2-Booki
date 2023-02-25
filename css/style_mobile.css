@@ -1,0 +1,70 @@
+@media only screen and (max-width: 768px) {
+  .mainHeader {
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0px;
+  }
+  .mainHeader img {
+    margin: 20px;
+  }
+  .mainHeader nav {
+    flex-direction: row;
+    width: 100%;
+  }
+  .mainHeader nav span a {
+    height: 45px;
+    border-bottom: 3px solid #f2f2f2;
+  }
+  .mainHeader nav span a:hover {
+    border-top: 0px;
+    border-bottom: 3px solid #0065fc;
+    border-left: 0px;
+  }
+  .mainHeader nav span a:active {
+    border-top: 0px;
+    border-bottom: 2px solid #0065fc;
+    border-left: 0px;
+  }
+  header.navSearchHeader {
+    margin-right: 20px;
+  }
+  .navSearchHeader h1 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  .navSearch {
+    margin-right: 15px;
+  }
+  .navSearchBar {
+    width: 100%;
+  }
+  .navSearchBar input#search {
+    flex-grow: 1;
+  }
+  button#buttonMobile {
+    right: 13px;
+  }
+  .HostingPopular {
+    gap: 10px;
+  }
+  .hostingMainMore {
+    font-size: 16px;
+  }
+  #hosting {
+    gap: unset;
+  }
+  #activities {
+    padding-top: 10px;
+    margin-bottom: 25px;
+  }
+  #activities h2 {
+    margin-bottom: 0px;
+  }
+  .hostingCard {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  footer {
+    padding-top: 5px;
+  }
+}
